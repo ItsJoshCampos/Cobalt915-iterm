@@ -17,7 +17,7 @@ They work well together! You will need to install the patched powerline font as 
   ```
 pip install --user powerline-status
   ```
- * Now install all necessary fonts by downloading or cloning git repository.
+ * OR install all necessary fonts by downloading or cloning git repository.
 
   ```
 git clone https://github.com/powerline/fonts
@@ -29,9 +29,11 @@ cd fonts
 
 3. In iTerm2 access the *Preferences* pane on the *Profiles* tab.
 4. Under the *Colors* tab import the `cobalt915.itermcolors` file via the *Load Presets* drop-down.
-5. Under the *Text* tab change the font for each type (*Regular* and *Non-ASCII*) to '**Inconsolata for Powerline**'. (Refer to the [powerline-fonts repo](https://github.com/powerline/fonts) for help on font installation.)
+5. Under the *Text* tab change the font for each type (*Regular* and *Non-ASCII*) to '**Inconsolata-g for Powerline**'. (Refer to the [powerline-fonts repo](https://github.com/powerline/fonts) for help on font installation.) Set both font sizes to around 13-14, depending on your preference.
 6. Refresh ZSH by typing `source ~/.zshrc` on the command line.
-7. If you want the full blown tabs and everything shown in the screenshot, use the Profile in cobalt915.json.
+7. I like to use slight transparency set to 11 (Profiles > Window > Transparency).
+8. Set Default Directory (Profiles > General > Set Directory).
+
 
 ##### ...in a MinTTY environment
 1. Drop the `cobalt915.zsh-theme` file in to the `~/.oh-my-zsh/themes/` directory.
